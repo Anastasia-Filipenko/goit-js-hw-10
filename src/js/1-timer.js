@@ -56,10 +56,7 @@ input.addEventListener('change', () => {
     iziToast.error({
       message: 'Please choose a date in the future',
       timeout: 3000,
-      resetOnHover: true,
-      transitionIn: 'flipInX',
-      transitionOut: 'flipOutX',
-      position: 'topCenter',
+      position: 'topRight',
     });
     buttonStart.setAttribute('disabled', 'true');
   } else {
